@@ -2,6 +2,8 @@
     {
         "day": 1,
         "title": "Arrival & Shinjuku",
+        "budget": "¥5,000",
+        "transport": "¥2,500 (Skyliner + Metro)",
         "activities": [
             {
                 "time": "10:00",
@@ -16,64 +18,68 @@
             {
                 "time": "15:00",
                 "title": "Shinjuku Gyoen",
-                "desc": "Relax at one of Tokyo's largest parks."
+                "desc": "Entry: ¥500. Relax at one of Tokyo's largest parks."
             },
             {
                 "time": "19:00",
                 "title": "Omoide Yokocho",
-                "desc": "Dinner at 'Piss Alley' for authentic Yakitori."
+                "desc": "Dinner: ¥3,000. Yakitori & drinks."
             }
         ]
     },
     {
         "day": 2,
         "title": "Cultural Asakusa & Ueno",
+        "budget": "¥6,000",
+        "transport": "¥800 (Metro Day Pass)",
         "activities": [
             {
                 "time": "09:00",
                 "title": "Senso-ji Temple",
-                "desc": "Visit Tokyo's oldest temple in Asakusa."
+                "desc": "Free entry. Omikuji: ¥100."
             },
             {
                 "time": "11:00",
                 "title": "Nakamise Shopping Street",
-                "desc": "Buy traditional snacks and souvenirs."
+                "desc": "Food & souvenirs: ¥3,000."
             },
             {
                 "time": "13:00",
                 "title": "Ueno Park",
-                "desc": "Visit museums or the zoo."
+                "desc": "Free entry. Museum options available."
             },
             {
                 "time": "17:00",
                 "title": "Akihabara",
-                "desc": "Experience the otaku culture and electronics."
+                "desc": "Dinner & Maid Cafe: ¥2,500."
             }
         ]
     },
     {
         "day": 3,
         "title": "Modern Shibuya & Harajuku",
+        "budget": "¥8,000",
+        "transport": "¥600 (Metro)",
         "activities": [
             {
                 "time": "10:00",
                 "title": "Meiji Shrine",
-                "desc": "Peaceful forest shrine in the city."
+                "desc": "Free entry. Peaceful forest shrine."
             },
             {
                 "time": "12:00",
                 "title": "Takeshita Street",
-                "desc": "Crazy fashion and crepe shops."
+                "desc": "Crepes & shopping: ¥4,000."
             },
             {
                 "time": "15:00",
                 "title": "Shibuya Crossing",
-                "desc": "The world's busiest crossing."
+                "desc": "Photo opportunity. Free."
             },
             {
                 "time": "18:00",
                 "title": "Shibuya Sky",
-                "desc": "Sunset view from the top."
+                "desc": "Entry: ¥2,200 (Book in advance)."
             }
         ]
     }

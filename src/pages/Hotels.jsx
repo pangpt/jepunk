@@ -4,7 +4,7 @@ import hotelsData from '../data/hotels.json';
 
 const Hotels = () => {
     return (
-        <div className="space-y-4">
+        <div className="space-y-4 pb-20">
             <div className="flex justify-between items-center mb-2">
                 <h2 className="text-2xl font-bold text-gray-800">Tokyo Stays 🏨</h2>
                 <span className="bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded">Realisable</span>
@@ -30,9 +30,14 @@ const Hotels = () => {
 
                             <div className="flex justify-between items-center border-t pt-3">
                                 <span className="text-lg font-bold text-blue-600">{hotel.price}<span className="text-xs text-gray-400 font-normal">/night</span></span>
-                                <button className="bg-gray-900 text-white text-sm px-4 py-2 rounded-lg hover:bg-gray-700 transition">
-                                    Book Now
-                                </button>
+                                <a
+                                    href={hotel.mapUrl}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="bg-blue-50 text-blue-600 text-sm px-4 py-2 rounded-lg hover:bg-blue-100 transition flex items-center gap-1 font-bold"
+                                >
+                                    <MapPin size={16} /> View on Map
+                                </a>
                             </div>
                         </div>
                     </div>

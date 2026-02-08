@@ -8,6 +8,13 @@
 
 body {
   font-family: 'Inter', sans-serif;
-  background-color: #f3f4f6;
-  /* light gray bg */
+  background: linear-gradient(135deg, #f3f4f6 0%, #e0e7ff 100%);
+  min-height: 100vh;
+}
+
+.glass {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
 }

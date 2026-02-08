@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Clock, MapPin, Calendar } from 'lucide-react';
+import { Clock, MapPin, Calendar, Wallet, Train } from 'lucide-react';
 import itineraryData from '../data/itinerary.json';
 
 const Itinerary = () => {
@@ -8,7 +8,7 @@ const Itinerary = () => {
     const currentDay = itineraryData.find(d => d.day === activeDay);
 
     return (
-        <div className="space-y-6">
+        <div className="space-y-6 pb-20">
             <div className="flex justify-between items-center">
                 <h2 className="text-2xl font-bold text-gray-800">Itinerary 🗺️</h2>
             </div>
@@ -29,22 +29,38 @@ const Itinerary = () => {
                 ))}
             </div>
 
-            <div className="bg-white rounded-2xl p-6 shadow-sm border border-gray-100">
+            <div className="bg-white/80 backdrop-blur-md rounded-2xl p-6 shadow-sm border border-gray-100">
                 <h3 className="text-xl font-bold text-gray-800 mb-1">{currentDay.title}</h3>
-                <p className="text-gray-400 text-sm mb-6 flex items-center gap-1">
+                <p className="text-gray-400 text-sm mb-4 flex items-center gap-1">
                     <Calendar size={14} /> Classic Tokyo Route
                 </p>
 
+                {/* Budget & Transport Card */}
+                <div className="flex gap-2 mb-8">
+                    <div className="flex-1 bg-green-50 p-3 rounded-xl border border-green-100">
+                        <div className="flex items-center gap-2 text-green-700 font-bold text-xs mb-1">
+                            <Wallet size={14} /> Est. Budget
+                        </div>
+                        <div className="text-lg font-bold text-gray-800">{currentDay.budget}</div>
+                    </div>
+                    <div className="flex-1 bg-blue-50 p-3 rounded-xl border border-blue-100">
+                        <div className="flex items-center gap-2 text-blue-700 font-bold text-xs mb-1">
+                            <Train size={14} /> Transport
+                        </div>
+                        <div className="text-lg font-bold text-gray-800">{currentDay.transport}</div>
+                    </div>
+                </div>
+
                 <div className="space-y-8 relative pl-2">
                     {/* Timeline Line */}
-                    <div className="absolute left-[11px] top-2 bottom-4 w-[2px] bg-gray-200"></div>
+                    <div className="absolute left-[11px] top-2 bottom-4 w-[2px] bg-gradient-to-b from-blue-500 to-transparent"></div>
 
                     {currentDay.activities.map((activity, idx) => (
                         <div key={idx} className="relative flex gap-4">
                             {/* Dot */}
                             <div className="absolute left-[3px] mt-1.5 w-4 h-4 rounded-full border-4 border-white bg-blue-500 shadow-sm z-10"></div>
 
-                            <div className="pl-6">
+                            <div className="pl-6 w-full">
                                 <span className="text-sm font-bold text-blue-500 flex items-center gap-1 mb-1">
                                     <Clock size={12} /> {activity.time}
                                 </span>
