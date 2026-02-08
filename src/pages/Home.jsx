@@ -23,9 +23,13 @@ const Home = () => {
                     <MapPin className="text-green-500" size={32} />
                     <span className="font-medium text-gray-700">Itinerary</span>
                 </Link>
-                <Link to="/hotels" className="bg-white p-4 rounded-xl shadow-sm flex flex-col items-center justify-center gap-2 hover:bg-gray-50 transition">
+                <Link to="/converter" className="bg-white p-4 rounded-xl shadow-sm flex flex-col items-center justify-center gap-2 hover:bg-gray-50 transition">
+                    <div className="bg-yellow-100 p-2 rounded-full">💱</div>
+                    <span className="font-medium text-gray-700">Converter</span>
+                </Link>
+                <Link to="/hotels" className="col-span-2 bg-white p-4 rounded-xl shadow-sm flex flex-row items-center justify-center gap-4 hover:bg-gray-50 transition">
                     <div className="bg-orange-100 p-2 rounded-full">🏨</div>
-                    <span className="font-medium text-gray-700">Hotels</span>
+                    <span className="font-medium text-gray-700">Recommended Hotels</span>
                 </Link>
             </div>
 

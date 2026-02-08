@@ -82,5 +82,61 @@
                 "desc": "Entry: ¥2,200 (Book in advance)."
             }
         ]
+    },
+    {
+        "day": 4,
+        "title": "Tokyo Disney Resort",
+        "budget": "¥15,000",
+        "transport": "¥1,000 (Train)",
+        "activities": [
+            {
+                "time": "08:00",
+                "title": "Depart to Maihama",
+                "desc": "Train to Disney Resort Line."
+            },
+            {
+                "time": "09:00",
+                "title": "DisneySea / Land",
+                "desc": "Ticket: ~¥8,400. Enjoy the rides!"
+            },
+            {
+                "time": "13:00",
+                "title": "Lunch",
+                "desc": "Themed food inside the park: ¥2,000."
+            },
+            {
+                "time": "20:00",
+                "title": "Fireworks",
+                "desc": "Watch the night show before heading back."
+            }
+        ]
+    },
+    {
+        "day": 5,
+        "title": "Last Minute Shopping & Departure",
+        "budget": "¥10,000",
+        "transport": "¥2,500 (Skyliner to Airport)",
+        "activities": [
+            {
+                "time": "10:00",
+                "title": "Don Quijote / Ginza",
+                "desc": "Buy KitKats and souvenirs."
+            },
+            {
+                "time": "13:00",
+                "title": "Lunch to Go",
+                "desc": "Last Konbini run: ¥1,000."
+            },
+            {
+                "time": "15:00",
+                "title": "Head to Airport",
+                "desc": "Take the Skyliner/NEX."
+            },
+            {
+                "time": "18:00",
+                "title": "Departure",
+                "desc": "Sayonara Japan! ✈️"
+            }
+        ]
     }
 ]
