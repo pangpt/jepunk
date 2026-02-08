@@ -1,141 +1,206 @@
 [
     {
         "day": 1,
-        "title": "Arrival & Shinjuku",
-        "budget": "¥5,000",
-        "transport": "¥2,500 (Skyliner + Metro)",
+        "title": "West Tokyo: Shinjuku & Shibuya",
+        "budget": "¥6,000",
+        "transport": "¥1,000 (Metro Pass recommended)",
         "activities": [
             {
-                "time": "10:00",
-                "title": "Arrive at Narita/Haneda",
-                "desc": "Pick up Pocket WiFi & Suica Card."
+                "time": "08:00",
+                "title": "Breakfast at Konbini",
+                "desc": "Grab Onigiri & Coffee at 7-Eleven. Start your day like a local."
+            },
+            {
+                "time": "09:00",
+                "title": "Meiji Jingu Shrine",
+                "desc": "Access: Harajuku Station. Walk through the forest to the main shrine."
+            },
+            {
+                "time": "11:00",
+                "title": "Takeshita Street",
+                "desc": "Walk from Meiji Jingu. Try the famous Crepes and check out fashion shops."
             },
             {
                 "time": "13:00",
-                "title": "Check-in Hotel",
-                "desc": "Drop luggage at the hotel."
+                "title": "Lunch in Omotesando",
+                "desc": "Walk down Omotesando Hills. Recommended: Tonkatsu Maisen."
             },
             {
                 "time": "15:00",
-                "title": "Shinjuku Gyoen",
-                "desc": "Entry: ¥500. Relax at one of Tokyo's largest parks."
+                "title": "Shibuya Crossing",
+                "desc": "Take Ginza Line to Shibuya. Photo at Hachiko Statue & Crossing."
             },
             {
-                "time": "19:00",
-                "title": "Omoide Yokocho",
-                "desc": "Dinner: ¥3,000. Yakitori & drinks."
+                "time": "17:00",
+                "title": "Shibuya Sky",
+                "desc": "Pre-book tickets! Best sunset view of Tokyo."
+            },
+            {
+                "time": "19:30",
+                "title": "Dinner in Shinjuku",
+                "desc": "Take Yamanote Line to Shinjuku. Omoide Yokocho for Yakitori."
+            },
+            {
+                "time": "21:30",
+                "title": "Kabukicho Stroll",
+                "desc": "See the neon lights and Godzilla head. Safe to walk, but ignore touters."
             }
         ]
     },
     {
         "day": 2,
-        "title": "Cultural Asakusa & Ueno",
-        "budget": "¥6,000",
-        "transport": "¥800 (Metro Day Pass)",
+        "title": "East Tokyo: Asakusa & Akihabara",
+        "budget": "¥5,000",
+        "transport": "¥600 (Metro)",
         "activities": [
             {
-                "time": "09:00",
+                "time": "07:30",
                 "title": "Senso-ji Temple",
-                "desc": "Free entry. Omikuji: ¥100."
+                "desc": "Access: Asakusa Station. Go early to avoid crowds. Kaminarimon Gate photo."
+            },
+            {
+                "time": "09:00",
+                "title": "Nakamise Street",
+                "desc": "Snack on Melon Pan and Agemanju."
             },
             {
                 "time": "11:00",
-                "title": "Nakamise Shopping Street",
-                "desc": "Food & souvenirs: ¥3,000."
+                "title": "Tokyo Skytree",
+                "desc": "Walk across Sumida River or take Tobu line. Shopping at Solamachi."
             },
             {
                 "time": "13:00",
-                "title": "Ueno Park",
-                "desc": "Free entry. Museum options available."
+                "title": "Lunch: Sushi",
+                "desc": "Kura Sushi or Sushiro (Conveyor belt) in Solamachi."
             },
             {
-                "time": "17:00",
+                "time": "15:00",
                 "title": "Akihabara",
-                "desc": "Dinner & Maid Cafe: ¥2,500."
+                "desc": "Take Tsukuba Express. Explore Animate, Radio Kaikan, and GiGO arcades."
+            },
+            {
+                "time": "18:00",
+                "title": "Maid Cafe Experience",
+                "desc": "Try @Home Cafe or just explore the electric town vibes."
+            },
+            {
+                "time": "20:00",
+                "title": "Dinner: Ramen",
+                "desc": "Kyushu Jangara Ramen Akihabara is famous."
             }
         ]
     },
     {
         "day": 3,
-        "title": "Modern Shibuya & Harajuku",
-        "budget": "¥8,000",
-        "transport": "¥600 (Metro)",
+        "title": "Culture & Art: Ueno & Ginza",
+        "budget": "¥7,000",
+        "transport": "¥600",
         "activities": [
             {
-                "time": "10:00",
-                "title": "Meiji Shrine",
-                "desc": "Free entry. Peaceful forest shrine."
+                "time": "09:00",
+                "title": "Ueno Park",
+                "desc": "Access: Ueno Station. Visit Tokyo National Museum or Ueno Zoo (Pandas)."
             },
             {
                 "time": "12:00",
-                "title": "Takeshita Street",
-                "desc": "Crepes & shopping: ¥4,000."
+                "title": "Ameyoko Street",
+                "desc": "Street food market. Fruit sticks, kebabs, and discount shopping."
             },
             {
-                "time": "15:00",
-                "title": "Shibuya Crossing",
-                "desc": "Photo opportunity. Free."
+                "time": "14:00",
+                "title": "Ginza Shopping",
+                "desc": "Take Ginza Line. Visit Uniqlo Flagship (12 floors) and Dover Street Market."
             },
             {
-                "time": "18:00",
-                "title": "Shibuya Sky",
-                "desc": "Entry: ¥2,200 (Book in advance)."
+                "time": "17:00",
+                "title": "TeamLab Planets",
+                "desc": "Access: Toyosu Station. Immersive digital art museum (Pre-book!)."
+            },
+            {
+                "time": "20:00",
+                "title": "Dinner in Tsukiji",
+                "desc": "Sushi Zanmai stays open late. Fresh seafood."
             }
         ]
     },
     {
         "day": 4,
-        "title": "Tokyo Disney Resort",
+        "title": "Magic Day: Tokyo DisneySea",
         "budget": "¥15,000",
-        "transport": "¥1,000 (Train)",
+        "transport": "¥800",
         "activities": [
             {
-                "time": "08:00",
-                "title": "Depart to Maihama",
-                "desc": "Train to Disney Resort Line."
+                "time": "07:00",
+                "title": "Depart Early",
+                "desc": "Train to Maihama Station. Transfer to Disney Resort Line."
             },
             {
-                "time": "09:00",
-                "title": "DisneySea / Land",
-                "desc": "Ticket: ~¥8,400. Enjoy the rides!"
+                "time": "08:30",
+                "title": "DisneySea Entry",
+                "desc": "Head straight to Soaring or Journey to the Center of the Earth."
             },
             {
-                "time": "13:00",
-                "title": "Lunch",
-                "desc": "Themed food inside the park: ¥2,000."
+                "time": "12:00",
+                "title": "Lunch: Gyoza Dog",
+                "desc": "Snack on themed popcorn and Gyoza sausage bun."
             },
             {
-                "time": "20:00",
+                "time": "14:00",
+                "title": "Harbor Show",
+                "desc": "Watch the water show at Mediterranean Harbor."
+            },
+            {
+                "time": "18:00",
+                "title": "Dinner: Vulcania",
+                "desc": "Chinese food inside Mysterious Island."
+            },
+            {
+                "time": "20:30",
                 "title": "Fireworks",
-                "desc": "Watch the night show before heading back."
+                "desc": "Enjoy 'Believe! Sea of Dreams' night show."
+            },
+            {
+                "time": "22:00",
+                "title": "Return to Hotel",
+                "desc": "Expect crowded trains on the way back."
             }
         ]
     },
     {
         "day": 5,
-        "title": "Last Minute Shopping & Departure",
+        "title": "Goodbye Tokyo",
         "budget": "¥10,000",
-        "transport": "¥2,500 (Skyliner to Airport)",
+        "transport": "¥2,500 (Skyliner)",
         "activities": [
             {
+                "time": "09:00",
+                "title": "Checkout & Lockers",
+                "desc": "Leave bags at hotel or station lockers."
+            },
+            {
                 "time": "10:00",
-                "title": "Don Quijote / Ginza",
-                "desc": "Buy KitKats and souvenirs."
+                "title": "Don Quijote",
+                "desc": "Last minute souvenir shopping (KitKats, skincare) at Donki."
             },
             {
-                "time": "13:00",
-                "title": "Lunch to Go",
-                "desc": "Last Konbini run: ¥1,000."
+                "time": "12:30",
+                "title": "Last Lunch",
+                "desc": "Ichiran Ramen or CoCo Ichibanya Curry."
             },
             {
-                "time": "15:00",
+                "time": "14:00",
                 "title": "Head to Airport",
-                "desc": "Take the Skyliner/NEX."
+                "desc": "Take Keisei Skyliner (to Narita) or Monorail (to Haneda)."
+            },
+            {
+                "time": "16:00",
+                "title": "Airport Shopping",
+                "desc": "Buy Tokyo Banana and Royce Chocolate at Duty Free."
             },
             {
                 "time": "18:00",
-                "title": "Departure",
-                "desc": "Sayonara Japan! ✈️"
+                "title": "Flight Home",
+                "desc": "Have a safe flight back to Indonesia!"
             }
         ]
     }

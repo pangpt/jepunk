@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { ArrowRightLeft, Copy, Check, Volume2 } from 'lucide-react';
+import { ArrowRightLeft, Copy, Check, Volume2, ExternalLink } from 'lucide-react';
 import { translateText } from '../utils/translate';
 
 const Translator = () => {
@@ -33,8 +33,13 @@ const Translator = () => {
     const handleSpeak = () => {
         if (!translatedText) return;
         const utterance = new SpeechSynthesisUtterance(translatedText);
-        utterance.lang = 'ja-JP'; // Japanese
+        utterance.lang = 'ja-JP';
         window.speechSynthesis.speak(utterance);
+    };
+
+    const openGoogleTranslate = () => {
+        const text = encodeURIComponent(inputText);
+        window.open(`https://translate.google.com/?sl=id&tl=ja&text=${text}&op=translate`, '_blank');
     };
 
     return (
@@ -49,18 +54,27 @@ const Translator = () => {
                 />
             </div>
 
-            <div className="flex justify-center">
+            <div className="flex flex-col gap-3 justify-center">
                 <button
                     onClick={handleTranslate}
                     disabled={loading || !inputText}
-                    className="bg-blue-600 text-white px-6 py-3 rounded-full shadow-lg flex items-center gap-2 hover:bg-blue-700 disabled:opacity-50 disabled:cursor-not-allowed transition-all active:scale-95"
+                    className="bg-blue-600 text-white px-6 py-3 rounded-full shadow-lg flex items-center justify-center gap-2 hover:bg-blue-700 disabled:opacity-50 disabled:cursor-not-allowed transition-all active:scale-95"
                 >
                     {loading ? (
                         <span className="w-5 h-5 border-2 border-white border-t-transparent rounded-full animate-spin"></span>
                     ) : (
                         <ArrowRightLeft size={20} />
                     )}
-                    Translate to Japanese
+                    Quick Translate (In-App)
+                </button>
+
+                <button
+                    onClick={openGoogleTranslate}
+                    disabled={!inputText}
+                    className="bg-white text-gray-700 border border-gray-300 px-6 py-3 rounded-full shadow-sm flex items-center justify-center gap-2 hover:bg-gray-50 disabled:opacity-50 transition-all active:scale-95"
+                >
+                    <ExternalLink size={20} />
+                    Open in Google Translate (Best Quality)
                 </button>
             </div>
 
@@ -95,15 +109,18 @@ const Translator = () => {
                 <h3 className="font-bold text-lg mb-3">Common Phrases</h3>
                 <div className="grid grid-cols-1 gap-2">
                     {[
-                        { id: 'Halo', jp: 'Konnichiwa (こんにちは)' },
-                        { id: 'Terima Kasih', jp: 'Arigatou (ありがとう)' },
-                        { id: 'Maaf', jp: 'Sumimasen (すみません)' },
-                        { id: 'Enak', jp: 'Oishii (おいしい)' },
-                        { id: 'Dimana toilet?', jp: 'Toire wa doko desu ka? (トイレはどこですか)' },
+                        { id: 'Halo', jp: 'Konnichiwa', romaji: 'Konnichiwa' },
+                        { id: 'Terima Kasih', jp: 'Arigatou', romaji: 'Arigatou' },
+                        { id: 'Maaf', jp: 'Sumimasen', romaji: 'Sumimasen' },
+                        { id: 'Enak', jp: 'Oishii', romaji: 'Oishii' },
+                        { id: 'Dimana toilet?', jp: 'Toire wa doko?', romaji: 'Toire wa doko desu ka?' },
                     ].map((phrase, index) => (
                         <div key={index} className="bg-white p-3 rounded-lg border border-gray-100 flex justify-between items-center text-sm">
                             <span className="font-medium text-gray-600">{phrase.id}</span>
-                            <span className="font-bold text-gray-800">{phrase.jp}</span>
+                            <div className="text-right">
+                                <div className="font-bold text-gray-800">{phrase.jp}</div>
+                                <div className="text-xs text-gray-400 italic">{phrase.romaji}</div>
+                            </div>
                         </div>
                     ))}
                 </div>

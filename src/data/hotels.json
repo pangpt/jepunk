@@ -7,7 +7,7 @@
         "image": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
         "rating": 4.2,
         "desc": "Dekat dari Stasiun Shinjuku, sangat strategis untuk nightlife dan shopping.",
-        "mapUrl": "https://goo.gl/maps/example1"
+        "mapUrl": "https://www.google.com/maps/search/?api=1&query=APA+Hotel+Shinjuku+Kabukicho+Tokyo"
     },
     {
         "id": 2,
@@ -17,7 +17,7 @@
         "image": "https://images.unsplash.com/photo-1571896349842-6e53ce41e86a?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
         "rating": 4.5,
         "desc": "Terkenal dengan kepala Godzilla di atas gedung. Kamar bersih dan modern.",
-        "mapUrl": "https://goo.gl/maps/example2"
+        "mapUrl": "https://www.google.com/maps/search/?api=1&query=Hotel+Gracery+Shinjuku"
     },
     {
         "id": 3,
@@ -27,7 +27,7 @@
         "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
         "rating": 4.4,
         "desc": "Pemandangan langsung ke Tokyo Skytree dan Senso-ji Temple.",
-        "mapUrl": "https://goo.gl/maps/example3"
+        "mapUrl": "https://www.google.com/maps/search/?api=1&query=Asakusa+View+Hotel"
     },
     {
         "id": 4,
@@ -37,7 +37,7 @@
         "image": "https://images.unsplash.com/photo-1618773928121-c32242e63f39?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
         "rating": 4.3,
         "desc": "Hotel apartemen dengan mesin cuci di dalam kamar. Cocok untuk long stay.",
-        "mapUrl": "https://goo.gl/maps/example4"
+        "mapUrl": "https://www.google.com/maps/search/?api=1&query=Tokyu+Stay+Shibuya"
     },
     {
         "id": 5,
@@ -47,6 +47,6 @@
         "image": "https://images.unsplash.com/photo-1596436889106-be35e843f974?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
         "rating": 4.0,
         "desc": "Hotel budget ramah backpacker. Staf bisa berbahasa Inggris dengan baik.",
-        "mapUrl": "https://goo.gl/maps/example5"
+        "mapUrl": "https://www.google.com/maps/search/?api=1&query=Sakura+Hotel+Ikebukuro"
     }
 ]
