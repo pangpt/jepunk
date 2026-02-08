@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+/* Custom Scrollbar for premium feel */
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f3f4f6;
+  /* light gray bg */
+}

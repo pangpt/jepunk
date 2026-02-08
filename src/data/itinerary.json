@@ -1,0 +1,80 @@
+[
+    {
+        "day": 1,
+        "title": "Arrival & Shinjuku",
+        "activities": [
+            {
+                "time": "10:00",
+                "title": "Arrive at Narita/Haneda",
+                "desc": "Pick up Pocket WiFi & Suica Card."
+            },
+            {
+                "time": "13:00",
+                "title": "Check-in Hotel",
+                "desc": "Drop luggage at the hotel."
+            },
+            {
+                "time": "15:00",
+                "title": "Shinjuku Gyoen",
+                "desc": "Relax at one of Tokyo's largest parks."
+            },
+            {
+                "time": "19:00",
+                "title": "Omoide Yokocho",
+                "desc": "Dinner at 'Piss Alley' for authentic Yakitori."
+            }
+        ]
+    },
+    {
+        "day": 2,
+        "title": "Cultural Asakusa & Ueno",
+        "activities": [
+            {
+                "time": "09:00",
+                "title": "Senso-ji Temple",
+                "desc": "Visit Tokyo's oldest temple in Asakusa."
+            },
+            {
+                "time": "11:00",
+                "title": "Nakamise Shopping Street",
+                "desc": "Buy traditional snacks and souvenirs."
+            },
+            {
+                "time": "13:00",
+                "title": "Ueno Park",
+                "desc": "Visit museums or the zoo."
+            },
+            {
+                "time": "17:00",
+                "title": "Akihabara",
+                "desc": "Experience the otaku culture and electronics."
+            }
+        ]
+    },
+    {
+        "day": 3,
+        "title": "Modern Shibuya & Harajuku",
+        "activities": [
+            {
+                "time": "10:00",
+                "title": "Meiji Shrine",
+                "desc": "Peaceful forest shrine in the city."
+            },
+            {
+                "time": "12:00",
+                "title": "Takeshita Street",
+                "desc": "Crazy fashion and crepe shops."
+            },
+            {
+                "time": "15:00",
+                "title": "Shibuya Crossing",
+                "desc": "The world's busiest crossing."
+            },
+            {
+                "time": "18:00",
+                "title": "Shibuya Sky",
+                "desc": "Sunset view from the top."
+            }
+        ]
+    }
+]
